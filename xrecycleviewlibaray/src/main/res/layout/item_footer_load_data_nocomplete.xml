@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+              android:orientation="horizontal"
+              android:padding="20dp"
+    >
+
+    <View
+        android:layout_width="65dp"
+        android:layout_height="1dp"
+        android:background="#FFDCDADA"
+        />
+
+    <TextView
+        android:paddingLeft="18dp"
+        android:paddingRight="18dp"
+        android:textColor="#FF999999"
+        android:textSize="12sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="以上为近期记录"
+        />
+
+    <View
+        android:layout_width="65dp"
+        android:layout_height="1dp"
+        android:background="#FFDCDADA" />
+
+</LinearLayout>
